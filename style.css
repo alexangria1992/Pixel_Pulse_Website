@@ -194,3 +194,54 @@ nav {
 .header__image img:last-child {
   display: none;
 }
+
+/* ABOUT SECTION  */
+
+.about__header {
+  display: grid;
+  gap: 2rem;
+  border: 1px solid red;
+}
+
+.about__image img {
+  max-width: 450px;
+  margin: auto;
+}
+
+.about__content .paragraph {
+  margin-block: 2rem;
+  color: var(--text-light);
+}
+
+.about__grid {
+  gap: 2rem 1rem;
+  display: grid;
+  padding-block: 4rem;
+  border: 1px solid lightgreen;
+  border-bottom: 1px solid var(--text-light);
+}
+
+.about__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.about__card span {
+  padding: 8px 15px;
+  font-size: 1.75rem;
+  color: var(--text-dark);
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+}
+
+.about__card h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.about__card p {
+  color: var(--text-light);
+}
