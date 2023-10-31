@@ -28,3 +28,10 @@ ScrollReveal().reveal(".header__image img", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+// about container
+
+ScrollReveal().reveal(".about__card", {
+  scrollRevealOption,
+  interval: 500,
+});

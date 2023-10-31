@@ -245,3 +245,23 @@ nav {
 .about__card p {
   color: var(--text-light);
 }
+
+/* Portfolio  section */
+
+.portfolio__header {
+  border: 1px solid lightgreen;
+  display: grid;
+  gap: 2rem;
+}
+
+.portfolio__header .paragraph {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+.portfolio__card img {
+  max-width: 400px;
+  margin-inline: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
