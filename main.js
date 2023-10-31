@@ -36,6 +36,17 @@ ScrollReveal().reveal(".about__card", {
   interval: 500,
 });
 
+ScrollReveal().reveal(".portfolio__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
+// news container
+ScrollReveal().reveal(".news__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
 const swiper = new Swiper(".swiper", {
   loop: true,
   slidePerView: "auto",
